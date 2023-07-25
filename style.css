@@ -1,0 +1,115 @@
+body {
+  background-color: #fff2df;
+}
+
+h1 {
+  color: #fff2df;
+  background-color: #cc3300;
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+h3 {
+  color: #800000;
+  text-align: left;
+  margin-left: 25px;
+}
+
+h3.center {
+  color: #800000;
+  text-align: center;
+  margin-left: 0px;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+p {
+  margin-top: 0;
+  text-align: justify;
+}
+
+p.small {
+  font-size: 12px;
+}
+
+p.center {
+  text-align: center;
+}
+
+#button_left {
+  float: left
+}
+
+#button_right {
+  float: right;
+}
+
+#phone_number {
+  color: #cc3300;
+  text-align: center;
+}
+
+a.one:link {color:#800000; text-decoration: none;}
+a.one:visited {color:#800000; text-decoration: none;}
+a.one:hover {color:#cc3300; text-decoration: none;}
+
+ul.o {
+  list-style-type: circle;
+}
+
+
+/* Footer buttons */
+
+a.two:link, a.two:visited {
+  background-color: #E9967A;
+  color: #fff2df;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.two:hover, a.two:active {
+  background-color: #cc3300;
+}
+
+
+/* Photo combinations on Gallery page */
+
+div.gallery {
+  border: 2px solid #cc3300;
+  margin: 6px;
+  padding: 4px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+  font-size: 14px;
+}
+
+.responsive {
+  float: left;
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
